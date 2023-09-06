@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .menu-container {
+            text-align: left; 
+        }
+        .vertical-menu {
+            background-color: #ADD8E6;
+            color: white;
+            width: 200px;
+            padding: 10px;
+            margin-right: 20px;
+            border: 2px solid #333;
+            display: inline-block; 
+        }
+        .vertical-menu a {
+            color: blue;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .vertical-menu a:hover {
+            background-color: #ffa700;
+        }
+
+        .horizontal-menu {
+            background-color: #D3D3D3;
+            color: white;
+            padding: 10px;
+            margin-left: 20px;
+            border: 2px solid #333;
+            display: inline-block; 
+        }
+        .horizontal-menu a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .horizontal-menu a:hover {
+            background-color: #A9A9A9;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <!-- Vertical Menu (Placed First) -->
+        <h2>Vertical Navigation Bar</h2>
+        <div class="vertical-menu">
+            <a href="#">Home</a>
+            <a href="#">Java</a>
+            <a href="#">CSS</a>
+            <a href="#">HTML</a>
+            <a href="#">Bootstrap</a>
+        </div>
+    </div>
+
+    <div class="menu-container">
+        <!-- Horizontal Menu (Placed Second) -->
+        <h2>Horizontal Navigation Bar</h2>
+        <div class="horizontal-menu">
+            <a href="#">Home</a>
+            <a href="#">Java</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+        </div>
+    </div>
+</body>
+</html>
